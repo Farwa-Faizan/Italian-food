@@ -1,0 +1,18 @@
+@use '../custom' as *;
+
+.intro-section{
+	background-image:url('../../images/intro-section/intro-section.png');
+	&__logo{
+	font-size:30px;
+	}
+	p{
+	font-family: 'Teko';
+	font-size:1.5rem;
+	line-height:1;
+	}
+	&__pic{
+	position:absolute;
+	right:20px;
+	top:60px;
+	}
+}

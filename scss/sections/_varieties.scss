@@ -1,0 +1,11 @@
+@use '../custom' as *;
+
+.varieties{
+	position:relative;
+	.main{
+		font-size:20px;
+	}
+	p{
+	font-size:20px;
+	}
+}

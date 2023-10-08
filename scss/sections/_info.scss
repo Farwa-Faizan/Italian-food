@@ -1,0 +1,12 @@
+@use '../custom' as *;
+.info{
+	background-color:$primary;
+	.P-1{
+	font-size:15px;
+	text-align:right;
+	}
+	.P-2{
+	font-size:15px;
+	text-align:left;
+	}
+}

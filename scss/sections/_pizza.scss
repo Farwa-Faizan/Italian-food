@@ -1,0 +1,26 @@
+@use '../custom' as *;
+
+.pizza{
+	background-image:url('../../images/intro-section/intro-section.png');
+	p{
+	font-size:20px;
+	}
+	&__pic1{
+	position: absolute;
+	top:3200px;
+	left:1px;
+	height:200px;
+	}
+	&__pic2{
+	height:600px;
+	}
+	&__pic3{
+	height:200px;
+	position:absolute;
+	right:5px;
+	top:3000px;
+	}
+}
+.piic{
+	margin-bottom:-8rem;
+}

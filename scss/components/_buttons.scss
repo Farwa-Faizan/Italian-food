@@ -1,0 +1,36 @@
+@use '../custom' as *;
+
+.btn-rounded{
+      @include media-breakpoint-down(sm){
+      display:none;
+      }
+    position:relative;
+    padding:0.3rem 0.5rem 0.3rem 0.5rem;
+    width:150px;
+    margin-left:1.5rem;
+    margin-right:2rem;
+    i{
+    position:relative;
+    left:2.85rem;
+    }  
+ }
+ .readbtn{
+  margin:0px;
+  font-size:1.1rem;
+  border:none;
+ }
+ .showbtn{
+   width:250px;
+   height:55px;
+   font-size:1.5rem;
+   margin:0;
+   letter-spacing:2px;
+ }
+  .Subscribe{
+   width:100px;
+   height:45px;
+   font-size:1rem;
+   margin:0;
+   letter-spacing:1px;
+   border:1px solid;
+ }
